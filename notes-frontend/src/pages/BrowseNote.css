@@ -1,0 +1,84 @@
+/* BrowseNotes.css */
+
+.browse-container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.browse-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.browse-container p {
+  text-align: center;
+  color: #ff4d4f;
+  font-weight: 500;
+}
+
+.note-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.note-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.note-card p {
+  margin: 6px 0;
+  color: #444;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.note-card p strong {
+  background-color: #e6f2ff;
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: #007bff;
+  font-weight: 600;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+
+.note-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.note-card button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  margin-right: 10px;
+}
+
+.note-card button:hover {
+  opacity: 0.9;
+}
+
+.note-card .edit-btn {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.note-card .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}

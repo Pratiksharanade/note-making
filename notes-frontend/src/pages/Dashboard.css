@@ -1,0 +1,61 @@
+/* Dashboard.css */
+
+.dashboard-wrapper {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-wrapper h1 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.dashboard-wrapper p {
+  color: #444;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.dashboard-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-wrapper li {
+  margin-bottom: 15px;
+}
+
+.dashboard-wrapper a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.dashboard-wrapper a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.logout-button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
